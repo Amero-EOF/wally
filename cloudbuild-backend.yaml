@@ -13,7 +13,7 @@ steps:
       [
         "run",
         "deploy",
-        "wally-backend",
+        "wally-registry-backend",
         "--image",
         "gcr.io/wally-registry-500519/wally-registry-backend:$COMMIT_SHA",
         "--region",
